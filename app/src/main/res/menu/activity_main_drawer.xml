@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/insert_fragment"
+            android:icon="@drawable/ic_insert"
+            android:title="Insert"/>
+        <item
+            android:id="@+id/fragment_getAll"
+            android:icon="@drawable/ic_getall"
+            android:title="Get all"/>
+        <item android:title="Update"
+            android:id="@+id/fragment_update"
+            android:icon="@drawable/ic_update"/>
+        <item
+            android:title="Delete"
+            android:id="@+id/fragment_delete"
+            android:icon="@drawable/ic_delete"/>
+    </group>
+</menu>
